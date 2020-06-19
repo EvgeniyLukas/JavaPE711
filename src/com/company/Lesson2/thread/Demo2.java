@@ -1,6 +1,7 @@
 package com.company.Lesson2.thread;
 
 import java.time.LocalTime;
+import java.util.concurrent.Future;
 
 public class Demo2 {
     public static class WorkedThread extends Thread {

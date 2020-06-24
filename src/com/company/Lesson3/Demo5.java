@@ -16,6 +16,7 @@ public class Demo5 {
         }
         public synchronized void seyHi(Friend friend) {
             System.out.println("Hi " + this.name + " " + friend.getName());
+            //блокировка происходит здесь
             friend.hiBack(friend);
         }
         public synchronized void hiBack(Friend friend) {
